@@ -1,0 +1,204 @@
+/* small screen */
+@media screen and (max-width: 767px) {
+  .navigation-bar .container ul {
+    display: none;
+  }
+
+  .navigation-bar .container .burger-icon {
+    visibility: visible;
+  }
+
+  .navigation-bar .container .burger-icon i {
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  /* home section */
+  .home .container .home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home .container .home-content .home-img,
+  .home .container .home-content .home-text {
+    flex-basis: 100%;
+  }
+
+  .home .container .home-content .home-text {
+    order: 2;
+  }
+
+  .home .container .home-content .home-img {
+    order: 1;
+  }
+
+  .home .container .home-content .home-btns {
+    justify-content: center;
+  }
+
+  .home .container .home-content .home-text h2 {
+    margin-block-start: 40px;
+  }
+  /* home section */
+
+  /* chefs section */
+  .chefs .container .cards-container .card {
+    flex-basis: 100%;
+    margin-block: 15px;
+  }
+  /* chefs section */
+
+  /* start gallery */
+  .gallery .container .gallery-container .album {
+    flex-basis: 100%;
+  }
+  /* start gallery */
+
+  /* contact us section */
+  .contact-us .container .information .flex-bar {
+    flex-basis: 100%;
+  }
+
+  .contact-us .container .contact-form form .input-text input {
+    flex-basis: 100%;
+  }
+  /* contact us section */
+
+  /* footer section */
+  .footer .container .info-content .short-info,
+  .footer .container .info-content .mid-info,
+  .footer .container .info-content .links {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .footer .container .info-content .short-info .logo-heading {
+    justify-content: center;
+  }
+
+  .footer .container .info-content .mid-info .subscribe-form button,
+  .footer .container .info-content .mid-info .subscribe-form input {
+    flex-basis: 100%;
+    border-radius: 0%;
+    margin-block-end: 10px;
+  }
+
+  .footer .container .info-content .mid-info .quick-links {
+    text-align: left;
+  }
+  /* footer section */
+}
+/* small screen */
+
+/* mid screen */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* home section */
+  .navigation-bar .container ul {
+    display: none;
+  }
+
+  .navigation-bar .container .burger-icon {
+    visibility: visible;
+  }
+
+  .navigation-bar .container .burger-icon i {
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .home .container .home-content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home .container .home-content .home-img,
+  .home .container .home-content .home-text {
+    flex-basis: 80%;
+  }
+
+  .home .container .home-content .home-text {
+    order: 2;
+  }
+
+  .home .container .home-content .home-img {
+    order: 1;
+  }
+
+  .home .container .home-content .home-btns {
+    justify-content: center;
+  }
+
+  .home .container .home-content .home-text h2 {
+    margin-block-start: 40px;
+  }
+  /* home section */
+  /* chefs section */
+  .chefs .container .cards-container {
+    justify-content: space-evenly;
+  }
+
+  .chefs .container .cards-container .card {
+    flex-basis: calc((100% - 30px) / 2);
+    margin-block: 15px;
+  }
+  /* chefs section */
+
+  /* start gallery */
+  .gallery .container .gallery-container .album picture .overlay h2 {
+    font-size: 20px;
+  }
+
+  .gallery .container .gallery-container .album picture .overlay p {
+    font-size: 12px;
+  }
+  /* start gallery */
+
+  /* contact us section */
+  .contact-us .container .contact-form form .input-text input {
+    flex-basis: 100%;
+  }
+
+  .footer .container .info-content .mid-info .subscribe-form button,
+  .footer .container .info-content .mid-info .subscribe-form input {
+    flex-basis: 100%;
+    border-radius: 0%;
+    margin-block-end: 10px;
+  }
+  /* contact us section */
+
+  /* footer section */
+  .footer .container .info-content .short-info,
+  .footer .container .info-content .links {
+    flex-basis: calc((100% - 30px) / 2);
+    text-align: center;
+  }
+
+  .footer .container .info-content .short-info {
+    order: 1;
+  }
+
+  .footer .container .info-content .mid-info {
+    order: 3;
+    flex-basis: 50%;
+  }
+
+  .footer .container .info-content .links {
+    order: 2;
+  }
+
+  .footer .container .info-content .links ul {
+    text-align: left;
+  }
+
+  .footer .container .info-content .short-info .logo-heading {
+    justify-content: center;
+  }
+
+  .footer .container .info-content .mid-info .quick-links {
+    text-align: left;
+  }
+  /* footer section */
+}
+/* mid screen */
